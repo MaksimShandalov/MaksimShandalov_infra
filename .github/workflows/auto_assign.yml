@@ -1,9 +1,10 @@
-name: Auto Assign Home_Works
-on: pull_request
+name: Auto Assign Homework
 
+on: pull_request
 
 jobs:
   add-reviews:
     runs-on: ubuntu-latest
     steps:
       - uses: kentaro-m/auto-assign-action@v1.1.2
+      
